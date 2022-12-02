@@ -55,7 +55,6 @@ const Register = () => {
         <input
           className="w-3/5 mx-auto my-4 p-3"
           placeholder="Password"
-          autoComplete="false"
           onChange={(e) => {
             setUser({
               ...user,
